@@ -1,0 +1,17 @@
+table{
+	background-color:aliceblue;
+	border-radius:30px;
+	font-family:arial,sans-serif;
+	color:goldenrod;
+	font-size:6vmin;
+}
+img{
+	border-radius:30px;
+	height:300px;
+	width:100%;
+}
+td{
+	padding:0px;
+	width:350px;
+	height:300px;
+}
