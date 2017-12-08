@@ -1,0 +1,59 @@
+body
+{
+  background-color: darkorange;
+}
+ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li
+{
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  background-color: bisque;
+  padding-left: 10px;
+}
+ul li:hover
+{
+  background-color: gainsboro;
+}
+ul li.checked
+{
+  text-decoration: line-through;
+  background-color: springgreen;
+}
+th
+{
+  font-size: 30px;
+  font-family:sans-serif;
+  vertical-align: top;
+}
+table
+{
+  background-color: cornsilk;
+  width: 50%;
+}
+input
+{
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+button
+{
+  background-color: #e7e7e7;
+  font-size: 20px;
+  border-radius: 4px;
+  color: black;
+}
+button:hover
+{
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+}
