@@ -6,6 +6,9 @@ function add()
 	td.appendChild(t);
 	document.getElementById("list").appendChild(td);
 	document.getElementById("inpt").value = "";
+	var t = Date();
+	var txt = document.createTextNode(t);
+	document.getElementById("list").appendChild(txt);
 }
 
 document.addEventListener("click",function(event)
