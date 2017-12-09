@@ -18,3 +18,10 @@ document.addEventListener("click",function(event)
 		event.target.classList.toggle("checked");
 	}
 });
+function kpchk(e)
+{
+	if (e.keyCode === 13)
+	{
+		document.getElementById("btn").click();
+	}
+}
